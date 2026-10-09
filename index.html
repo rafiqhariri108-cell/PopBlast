@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP BLAST - Sip and Pop | Sensasi Meletus di Setiap Sedotan</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="brand-logo">
+                <i class="fa-solid fa-glass-water-droplet logo-icon"></i>
+                <span class="logo-text">POP <span class="highlight">BLAST</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">Tentang Us</a>
+                <a href="#menu" class="nav-link">Menu Pop</a>
+                <a href="#simulator" class="nav-link">Mix & Match</a>
+                <a href="#features" class="nav-link">Keunggulan</a>
+                <a href="#order" class="nav-link">Pesan PO</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="cart-btn" id="openCartBtn" aria-label="Keranjang Belanja">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count" id="cartBadge">0</span>
+                </button>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section 1: Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-bubbles">
+            <span class="bubble b1"></span>
+            <span class="bubble b2"></span>
+            <span class="bubble b3"></span>
+            <span class="bubble b4"></span>
+            <span class="bubble b5"></span>
+        </div>
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <div class="greeting-badge">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Halo Blastist! Ada yang meletus nih!
+                </div>
+                <h1 class="hero-title">
+                    Sip and Pop! <br>
+                    <span class="gradient-text">A Little Pop in Every Sip</span>
+                </h1>
+                <p class="hero-description">
+                    Pelopor minuman kekinian berbasis bahan alami dengan sensasi <strong>popping boba rasa buah segar</strong>[cite: 8, 14]. Dikemas dalam <em>Strawless Cup Anti-Tumpah</em>[cite: 12, 13] dengan harga ramah kantong mahasiswa![cite: 5, 8]
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#menu" class="btn btn-primary">
+                        <i class="fa-solid fa-cup-togo"></i> Pilih Varianmu
+                    </a>
+                    <a href="#simulator" class="btn btn-secondary">
+                        <i class="fa-solid fa-sliders"></i> Racik Sensasimu
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">Rp10k</span>
+                        <span class="stat-label">Harga Kantong Kampus</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Sensasi Alami Segar</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">0%</span>
+                        <span class="stat-label">Sedotan Plastik (Eco)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="product-card-hero">
+                    <div class="hero-img-wrapper">
+                        <!-- Foto Produk 1 (Milk Tea Pink Boba) -->
+                        <img src="WhatsApp Image 2026-10-07 at 21..18.jpeg" alt="Pop Blast Strawberry Milk Tea" class="hero-img main-img">
+                        <!-- Foto Produk 2 (Sparkling Soda Pink) -->
+                        <img src="WhatsApp Image 2026-10-07 at 21.54.18.jpeg" alt="Pop Blast Sparkling Strawberry Soda" class="hero-img sub-img">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fa-solid fa-heart"></i>
+                        <div>
+                            <strong>Strawberry Pink Boba</strong>
+                            <span>Manis & Lumer!</span>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fa-solid fa-sparkles"></i>
+                        <div>
+                            <strong>Lychee White Boba</strong>
+                            <span>Sensasi Meletus!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: About Us (Kisah & Persona) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="sub-heading">Siapa Kami?</span>
+                <h2 class="section-title">Inovasi Minuman Agribisnis Mahasiswa IPB</h2>
+                <p class="section-subtitle">Diciptakan khusus oleh Kelompok 7 Startup Agribisnis SV IPB University untuk menjawab kegelisahan mahasiswa![cite: 4, 5, 8, 10]</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card solution-card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Masalah Terjawab!</h3>
+                    <p>
+                        Berdasarkan survei 53 responden mahasiswa Bogor[cite: 5, 7], <strong>67.9%</strong> ragu beli minuman baru karena takut rasanya aneh & <strong>60.4%</strong> kemahalan[cite: 6, 7]. POP BLAST hadir menjawab kepastian rasa manis-segar yang pas dan aman di dompet![cite: 8, 9]
+                    </p>
+                </div>
+                <div class="about-card mascot-card">
+                    <div class="mascot-badge">Meet Our Mascot!</div>
+                    <div class="mascot-content">
+                        <div class="mascot-avatar"><i class="fa-solid fa-face-smile-wink"></i></div>
+                        <div>
+                            <h3>Hai! Aku <span>Pipop</span> 🎈</h3>
+                            <p>
+                                Maskot resmi POP BLAST! Bersama <strong>Minpop</strong> (Admin)[cite: 15], kami siap menyapa para <strong>Blastists</strong> (kamu!)[cite: 15] dengan minuman segar anti-tumpah direct-sip lid![cite: 12, 13]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="persona-highlight">
+                <div class="persona-info">
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                    <p class="quote-text">"Kami mau minuman yang nggak bikin kantong bobol, tidak ketinggalan zaman, nikmat, dan nggak gampang tumpah saat dibawa kelas jalan kaki di kampus!"[cite: 5, 7, 8, 13]</p>
+                    <span class="persona-author">- Rizky & Amanda (Mahasiswa Aktif Bogor)[cite: 8]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Product Menu Showcase -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="sub-heading">Katalog Menu</span>
+                <h2 class="section-title">Nikmati Sensasi Meletus Favoritmu</h2>
+                <p class="section-subtitle">Pilihan minuman kualitas tinggi dengan Popping Boba rasa buah asli[cite: 8, 11, 14]</p>
+            </div>
+
+            <!-- Filter Categories -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua Varian</button>
+                <button class="filter-btn" data-filter="milk-tea">Milk Tea Series</button>
+                <button class="filter-btn" data-filter="sparkling">Sparkling Series</button>
+            </div>
+
+            <!-- Menu Cards Container -->
+            <div class="menu-grid" id="menuGrid">
+                <!-- Varian 1 -->
+                <div class="menu-card" data-category="milk-tea">
+                    <div class="card-img-holder">
+                        <img src="WhatsApp Image 2026-10-07 at 21..18.jpeg" alt="Strawberry Creamy Milk Tea">
+                        <span class="tag best-seller">Best Seller 🔥</span>
+                    </div>
+                    <div class="card-details">
+                        <span class="cat-label">Milk Tea Series</span>
+                        <h3 class="product-name">Strawberry Creamy Milk Tea</h3>
+                        <p class="product-desc">Perpaduan manis gurih milk tea spesial dengan popping boba strawberry yang meletus rasa buah segar[cite: 11, 12, 14].</p>
+                        <div class="card-bottom">
+                            <div class="price">Rp 10.000 <span class="normal-price">Rp 12.000</span></div>
+                            <button class="btn-add-cart" onclick="addToCart(1)">
+                                <i class="fa-solid fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Varian 2 -->
+                <div class="menu-card" data-category="sparkling">
+                    <div class="card-img-holder">
+                        <img src="WhatsApp Image 2026-10-07 at 21.54.18.jpeg" alt="Sparkling Strawberry Pop">
+                        <span class="tag fresh">Super Fresh ❄️</span>
+                    </div>
+                    <div class="card-details">
+                        <span class="cat-label">Sparkling Series</span>
+                        <h3 class="product-name">Sparkling Strawberry Pop</h3>
+                        <p class="product-desc">Sensasi soda segar dingin dikombinasikan dengan popping boba strawberry pink dan lychee white[cite: 14, 15].</p>
+                        <div class="card-bottom">
+                            <div class="price">Rp 10.000 <span class="normal-price">Rp 12.000</span></div>
+                            <button class="btn-add-cart" onclick="addToCart(2)">
+                                <i class="fa-solid fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Varian 3 -->
+                <div class="menu-card" data-category="milk-tea">
+                    <div class="card-img-holder">
+                        <img src="WhatsApp Image 2026-10-07 a21.54.18.jpeg" alt="Lychee Velvet Milk Tea">
+                    </div>
+                    <div class="card-details">
+                        <span class="cat-label">Milk Tea Series</span>
+                        <h3 class="product-name">Lychee Velvet Milk Tea</h3>
+                        <p class="product-desc">Racikan susu creamy lembut dipadukan popping boba leci manis putih yang elegan dan harum[cite: 14, 15].</p>
+                        <div class="card-bottom">
+                            <div class="price">Rp 12.000</div>
+                            <button class="btn-add-cart" onclick="addToCart(3)">
+                                <i class="fa-solid fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Varian 4 -->
+                <div class="menu-card" data-category="sparkling">
+                    <div class="card-img-holder">
+                        <img src="WhatsApp Image 2026-10-07 at 21.54.18.jpeg" alt="Berry Blast Soda Refresh">
+                        <span class="tag new">Varian Baru ✨</span>
+                    </div>
+                    <div class="card-details">
+                        <span class="cat-label">Sparkling Series</span>
+                        <h3 class="product-name">Berry Blast Soda Refresh</h3>
+                        <p class="product-desc">Kesegaran ganda ekstrak buah beri dikombinasikan popping boba asam manis pelepas dahaga[cite: 11, 14].</p>
+                        <div class="card-bottom">
+                            <div class="price">Rp 12.000</div>
+                            <button class="btn-add-cart" onclick="addToCart(4)">
+                                <i class="fa-solid fa-plus"></i> Tambah
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Interactive Mix & Match Simulator -->
+    <section id="simulator" class="simulator-section">
+        <div class="container">
+            <div class="sim-wrapper">
+                <div class="sim-header text-center">
+                    <span class="sub-heading">Interactive Tool</span>
+                    <h2>Racik Minuman Pop Blast Impianmu!</h2>
+                    <p>Pilih basis rasa, popping boba favorit, dan tingkat kemanisan sesuai selera Blastist[cite: 8, 14].</p>
+                </div>
+
+                <div class="sim-grid">
+                    <!-- Dynamic Controls -->
+                    <div class="sim-controls">
+                        <div class="control-group">
+                            <label><i class="fa-solid fa-wine-glass"></i> 1. Pilih Basis Minuman:</label>
+                            <div class="radio-options">
+                                <label class="radio-btn active">
+                                    <input type="radio" name="base" value="Milk Tea Creamy" checked onchange="updateSim()">
+                                    <span>Milk Tea Creamy</span>
+                                </label>
+                                <label class="radio-btn">
+                                    <input type="radio" name="base" value="Sparkling Soda Fresh" onchange="updateSim()">
+                                    <span>Sparkling Soda Fresh</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label><i class="fa-solid fa-circle-dot"></i> 2. Pilih Varian Popping Boba:</label>
+                            <div class="radio-options">
+                                <label class="radio-btn active">
+                                    <input type="radio" name="boba" value="Strawberry Pink" checked onchange="updateSim()">
+                                    <span>Strawberry Pink Boba 🍓</span>
+                                </label>
+                                <label class="radio-btn">
+                                    <input type="radio" name="boba" value="Lychee White" onchange="updateSim()">
+                                    <span>Lychee White Boba ⚪</span>
+                                </label>
+                                <label class="radio-btn">
+                                    <input type="radio" name="boba" value="Mix Double Popping" onchange="updateSim()">
+                                    <span>Mix Both (+Rp 2.000) 💥</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label><i class="fa-solid fa-cubes-stacked"></i> 3. Level Kemanisan (Sweetness):</label>
+                            <select id="sweetness" class="custom-select" onchange="updateSim()">
+                                <option value="Normal Sweet (Pas & Balance)">Normal Sweet (Pas & Balanced)</option>
+                                <option value="Less Sugar (Tidak Terlalu Manis)">Less Sugar (Lebih Fresh)</option>
+                                <option value="Extra Sweet">Extra Sweet</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label><i class="fa-solid fa-puzzle-piece"></i> 4. Extra Topping Tambahan:</label>
+                            <div class="checkbox-options">
+                                <label class="check-btn">
+                                    <input type="checkbox" id="topJelly" value="Jelly Buah" onchange="updateSim()">
+                                    <span>Jelly Buah (+Rp 2.000)[cite: 7, 8]</span>
+                                </label>
+                                <label class="check-btn">
+                                    <input type="checkbox" id="topSelasih" value="Biji Selasih" onchange="updateSim()">
+                                    <span>Biji Selasih (+Rp 1.000)[cite: 7, 8]</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dynamic Preview Display -->
+                    <div class="sim-preview">
+                        <div class="cup-display-card">
+                            <div class="cup-visual" id="cupVisual">
+                                <div class="direct-sip-lid"><i class="fa-solid fa-lock"></i> Re-sealable Lid</div>
+                                <div class="cup-body" id="cupLiquid">
+                                    <div class="boba-particles" id="bobaParticles"></div>
+                                </div>
+                            </div>
+                            <div class="cup-summary">
+                                <h3>Racikan Kustom Kamu:</h3>
+                                <div class="summary-line" id="simResultName">Milk Tea Creamy + Strawberry Pink</div>
+                                <div class="summary-detail" id="simResultDetail">Sweetness: Normal | Cup Strawless Anti-Tumpah</div>
+                                <div class="sim-price" id="simTotalPrice">Rp 10.000</div>
+                                <button class="btn btn-primary w-100" onclick="addCustomToCart()">
+                                    <i class="fa-solid fa-cart-plus"></i> Pesan Racikan Ini
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Features & Value Proposition -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="sub-heading">Kenapa Harus Pop Blast?</span>
+                <h2 class="section-title">Value Proposition & Keunggulan Utama</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon bg-pink"><i class="fa-solid fa-burst"></i></div>
+                    <h3>Exploding Fruit Flavor</h3>
+                    <p>Sensasi boba popping buah yang meletus dan lumer di mulut saat digigit, memberikan pengalaman minum yang seru![cite: 11, 13, 14]</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon bg-mint"><i class="fa-solid fa-bottle-water"></i></div>
+                    <h3>Strawless & Anti-Tumpah</h3>
+                    <p>Menggunakan tutup <em>direct-sip re-sealable lid</em>. Praktis dibeli dan diminum sambil jalan kuliah tanpa takut tumpah[cite: 12, 13]!</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon bg-coral"><i class="fa-solid fa-leaf"></i></div>
+                    <h3>Bahan Alami & Sehat</h3>
+                    <p>Dibuat dengan basis olahan teh, susu segar, dan ekstrak buah alami tanpa pemanis buatan yang bikin enek[cite: 5, 7, 8, 14].</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon bg-yellow"><i class="fa-solid fa-wallet"></i></div>
+                    <h3>Ramah Kantong Mahasiswa</h3>
+                    <p>Harga pas di dompet mahasiswa (Hanya Rp 10.000 - Rp 12.000/cup) tanpa mengorbankan kualitas & rasa[cite: 5, 8, 10, 14].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Order & Pre-Order System -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <div class="order-box-wrapper">
+                <div class="order-info">
+                    <span class="sub-heading">Sistem Pemesanan</span>
+                    <h2>Open PO & Delivery Kampus Bogor</h2>
+                    <p>
+                        Pesan minuman favoritmu lebih awal lewat sistem <strong>Open Pre-Order (PO)</strong>[cite: 14] dan nikmati pengiriman langsung ke lokasi/kegiatan kampusmu di area IPB Dramaga & Bogor![cite: 14]
+                    </p>
+
+                    <div class="delivery-points">
+                        <h4><i class="fa-solid fa-location-dot"></i> Titik Ambil / Delivery Area:</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Kampus IPB Vokasi Cilibende / Gunung Gede</li>
+                            <li><i class="fa-solid fa-check"></i> Kampus IPB Dramaga (GWS, RK, Library)</li>
+                            <li><i class="fa-solid fa-check"></i> Booth Stand Event Agribisnis[cite: 14]</li>
+                        </ul>
+                    </div>
+
+                    <div class="promo-banner">
+                        <i class="fa-solid fa-tag"></i> <strong>Promo Beli Bundling:</strong> Diskon 10% untuk pembelian minimal 3 cup![cite: 14]
+                    </div>
+                </div>
+
+                <div class="order-form-card">
+                    <h3>Form Pemesanan Cepat (WA Direct)</h3>
+                    <form id="whatsappForm" onsubmit="sendWhatsAppOrder(event)">
+                        <div class="form-group">
+                            <label>Nama Lengkap Blastist:</label>
+                            <input type="text" id="custName" placeholder="Contoh: Amanda" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label>Lokasi Pengiriman / Kampus:</label>
+                            <input type="text" id="custLoc" placeholder="Contoh: SV IPB Cilibende / Gedung WS" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label>Metode Pemesanan:</label>
+                            <select id="orderMethod" class="form-input">
+                                <option value="Delivery Kampus Area">Delivery Area Kampus (COD)</option>
+                                <option value="Pick-Up di Booth">Ambil Sendiri di Booth Agribisnis</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Catatan Tambahan (Opsional):</label>
+                            <textarea id="custNotes" placeholder="Contoh: Tolong sediakan kemasan dingin ya Minpop!" class="form-input" rows="2"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-whatsapp w-100">
+                            <i class="fa-brands fa-whatsapp"></i> Kirim Pesanan via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide-out Cart Drawer -->
+    <div class="cart-drawer-overlay" id="cartOverlay" onclick="closeCart()"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h3><i class="fa-solid fa-bag-shopping"></i> Keranjang Pop Blast</h3>
+            <button class="close-cart-btn" onclick="closeCart()">&times;</button>
+        </div>
+        <div class="cart-body" id="cartItemsContainer">
+            <p class="empty-cart-text">Keranjangmu masih kosong nih, Blastist! Yuk pilih varian favoritmu.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total Biaya:</span>
+                <span class="total-price" id="cartTotalPrice">Rp 0</span>
+            </div>
+            <a href="#order" class="btn btn-primary w-100" onclick="closeCart()">
+                Lanjut ke Pemesanan <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo white">
+                    <i class="fa-solid fa-glass-water-droplet"></i> POP BLAST
+                </a>
+                <p>A Little Pop in Every Sip. Minuman kekinian ramah lingkungan dengan topping popping boba segar[cite: 8, 13, 14, 15].</p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://wa.me/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#about">Tentang Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#simulator">Mix & Match</a></li>
+                    <li><a href="#order">Pemesanan</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>Tim Agribisnis IPB</h4>
+                <p>Disusun oleh Kelompok 7 Startup Agribisnis Sekolah Vokasi IPB University[cite: 4, 5]:</p>
+                <small>Muthia, Ima, Muhammad Bintang, Rafiq, Allisya[cite: 4, 5].</small>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 POP BLAST. All Rights Reserved. Designed with Playful & Fun UI/UX.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
